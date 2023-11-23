@@ -34,8 +34,8 @@
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 9, 0)
 
 #elif LINUX_VERSION_CODE >= KERNEL_VERSION(4, 4, 0)
-extern inline bool may_mount(void);
-extern inline int check_mnt(struct mount *mnt);
+extern bool may_mount(void);
+extern int check_mnt(struct mount *mnt);
 extern void mntput_no_expire(struct mount *mnt);
 extern int do_umount(struct mount *mnt, int flags);
 static inline bool ksu_path_mounted(const struct path *path){
