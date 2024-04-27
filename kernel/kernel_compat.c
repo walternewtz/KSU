@@ -1,12 +1,12 @@
-#include "linux/version.h"
-#include "linux/fs.h"
-#include "linux/nsproxy.h"
+#include <linux/version.h>
+#include <linux/fs.h>
+#include <linux/nsproxy.h>
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 10, 0)
-#include "linux/sched/task.h"
+#include <linux/sched/task.h>
 #else
-#include "linux/sched.h"
+#include <linux/sched.h>
 #endif
-#include "linux/uaccess.h"
+#include <linux/uaccess.h>
 #include "klog.h" // IWYU pragma: keep
 
 #if LINUX_VERSION_CODE < KERNEL_VERSION(4, 10, 0)
