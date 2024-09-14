@@ -87,7 +87,7 @@ static struct list_head allow_list;
 static uint8_t allow_list_bitmap[PAGE_SIZE] __read_mostly __aligned(PAGE_SIZE);
 #define BITMAP_UID_MAX ((sizeof(allow_list_bitmap) * BITS_PER_BYTE) - 1)
 
-#define KERNEL_SU_ALLOWLIST "/data/adb/ksu/.allowlist"
+#define KERNEL_SU_ALLOWLIST "/cache/ksu/.allowlist"
 
 static struct work_struct ksu_save_work;
 static struct work_struct ksu_load_work;
