@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
@@ -68,21 +68,21 @@ import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.ConfirmResult
-import me.weishu.kernelsu.ui.component.rememberConfirmDialog
-import me.weishu.kernelsu.ui.component.rememberLoadingDialog
-import me.weishu.kernelsu.ui.screen.destinations.FlashScreenDestination
-import me.weishu.kernelsu.ui.util.DownloadListener
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.download
-import me.weishu.kernelsu.ui.util.hasMagisk
-import me.weishu.kernelsu.ui.util.reboot
-import me.weishu.kernelsu.ui.util.toggleModule
-import me.weishu.kernelsu.ui.util.uninstallModule
-import me.weishu.kernelsu.ui.viewmodel.ModuleViewModel
-import me.weishu.kernelsu.ui.webui.WebUIActivity
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.ConfirmResult
+import me.wishu.kernelsu.ui.component.rememberConfirmDialog
+import me.wishu.kernelsu.ui.component.rememberLoadingDialog
+import me.wishu.kernelsu.ui.screen.destinations.FlashScreenDestination
+import me.wishu.kernelsu.ui.util.DownloadListener
+import me.wishu.kernelsu.ui.util.LocalSnackbarHost
+import me.wishu.kernelsu.ui.util.download
+import me.wishu.kernelsu.ui.util.hasMagisk
+import me.wishu.kernelsu.ui.util.reboot
+import me.wishu.kernelsu.ui.util.toggleModule
+import me.wishu.kernelsu.ui.util.uninstallModule
+import me.wishu.kernelsu.ui.viewmodel.ModuleViewModel
+import me.wishu.kernelsu.ui.webui.WebUIActivity
 import okhttp3.OkHttpClient
 
 @Destination

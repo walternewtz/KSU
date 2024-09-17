@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -28,11 +28,11 @@ import coil.request.ImageRequest
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.SearchAppBar
-import me.weishu.kernelsu.ui.screen.destinations.AppProfileScreenDestination
-import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.SearchAppBar
+import me.wishu.kernelsu.ui.screen.destinations.AppProfileScreenDestination
+import me.wishu.kernelsu.ui.viewmodel.SuperUserViewModel
 
 @OptIn(ExperimentalMaterialApi::class)
 @Destination

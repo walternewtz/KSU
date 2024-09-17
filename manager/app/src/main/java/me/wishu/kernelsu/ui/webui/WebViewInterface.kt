@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.webui
+package me.wishu.kernelsu.ui.webui
 
 import android.app.Activity
 import android.content.Context
@@ -14,8 +14,8 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import com.topjohnwu.superuser.CallbackList
 import com.topjohnwu.superuser.ShellUtils
-import me.weishu.kernelsu.ui.util.createRootShell
-import me.weishu.kernelsu.ui.util.withNewRootShell
+import me.wishu.kernelsu.ui.util.createRootShell
+import me.wishu.kernelsu.ui.util.withNewRootShell
 import org.json.JSONArray
 import org.json.JSONObject
 import java.util.concurrent.CompletableFuture

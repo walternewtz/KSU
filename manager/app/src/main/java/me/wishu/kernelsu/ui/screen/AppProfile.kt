@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import androidx.annotation.StringRes
 import androidx.compose.animation.Crossfade
@@ -52,25 +52,25 @@ import coil.request.ImageRequest
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.SwitchItem
-import me.weishu.kernelsu.ui.component.profile.AppProfileConfig
-import me.weishu.kernelsu.ui.component.profile.RootProfileConfig
-import me.weishu.kernelsu.ui.component.profile.TemplateConfig
-import me.weishu.kernelsu.ui.screen.destinations.AppProfileTemplateScreenDestination
-import me.weishu.kernelsu.ui.screen.destinations.TemplateEditorScreenDestination
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.forceStopApp
-import me.weishu.kernelsu.ui.util.getSepolicy
-import me.weishu.kernelsu.ui.util.launchApp
-import me.weishu.kernelsu.ui.util.restartApp
-import me.weishu.kernelsu.ui.util.setSepolicy
-import me.weishu.kernelsu.ui.viewmodel.SuperUserViewModel
-import me.weishu.kernelsu.ui.viewmodel.getTemplateInfoById
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.SwitchItem
+import me.wishu.kernelsu.ui.component.profile.AppProfileConfig
+import me.wishu.kernelsu.ui.component.profile.RootProfileConfig
+import me.wishu.kernelsu.ui.component.profile.TemplateConfig
+import me.wishu.kernelsu.ui.screen.destinations.AppProfileTemplateScreenDestination
+import me.wishu.kernelsu.ui.screen.destinations.TemplateEditorScreenDestination
+import me.wishu.kernelsu.ui.util.LocalSnackbarHost
+import me.wishu.kernelsu.ui.util.forceStopApp
+import me.wishu.kernelsu.ui.util.getSepolicy
+import me.wishu.kernelsu.ui.util.launchApp
+import me.wishu.kernelsu.ui.util.restartApp
+import me.wishu.kernelsu.ui.util.setSepolicy
+import me.wishu.kernelsu.ui.viewmodel.SuperUserViewModel
+import me.wishu.kernelsu.ui.viewmodel.getTemplateInfoById
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/5/16.
  */
 @Destination

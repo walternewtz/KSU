@@ -1,4 +1,4 @@
-package me.weishu.kernelsu
+package me.wishu.kernelsu
 
 import android.os.Parcelable
 import androidx.annotation.Keep
@@ -6,7 +6,7 @@ import androidx.compose.runtime.Immutable
 import kotlinx.parcelize.Parcelize
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2022/12/8.
  */
 object Natives {

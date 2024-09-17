@@ -1,7 +1,7 @@
-package me.weishu.kernelsu.profile
+package me.wishu.kernelsu.profile
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/6/3.
  */
 enum class Capabilities(val cap: Int, val display: String, val desc: String) {

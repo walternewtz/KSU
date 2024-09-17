@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.webui
+package me.wishu.kernelsu.ui.webui
 
 import android.annotation.SuppressLint
 import android.app.ActivityManager
@@ -11,7 +11,7 @@ import android.webkit.WebViewClient
 import androidx.activity.ComponentActivity
 import androidx.webkit.WebViewAssetLoader
 import com.topjohnwu.superuser.Shell
-import me.weishu.kernelsu.ui.util.createRootShell
+import me.wishu.kernelsu.ui.util.createRootShell
 import java.io.File
 
 @SuppressLint("SetJavaScriptEnabled")

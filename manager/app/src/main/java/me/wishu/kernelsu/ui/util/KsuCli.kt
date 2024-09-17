@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package me.wishu.kernelsu.ui.util
 
 import android.content.ContentResolver
 import android.content.Context
@@ -17,15 +17,15 @@ import com.topjohnwu.superuser.io.SuFile
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.BuildConfig
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.ksuApp
+import me.wishu.kernelsu.BuildConfig
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.ksuApp
 import org.json.JSONArray
 import java.io.File
 
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/1/1.
  */
 private const val TAG = "KsuCli"

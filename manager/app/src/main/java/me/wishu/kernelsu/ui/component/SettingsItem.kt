@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package me.wishu.kernelsu.ui.component
 
 import androidx.compose.foundation.clickable
 import androidx.compose.material3.Icon

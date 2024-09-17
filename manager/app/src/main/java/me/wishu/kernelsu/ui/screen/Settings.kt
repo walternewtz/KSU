@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.content.ContentResolver
 import android.content.Context
@@ -67,26 +67,26 @@ import com.ramcosta.composedestinations.navigation.EmptyDestinationsNavigator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.BuildConfig
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.AboutDialog
-import me.weishu.kernelsu.ui.component.ConfirmResult
-import me.weishu.kernelsu.ui.component.DialogHandle
-import me.weishu.kernelsu.ui.component.SwitchItem
-import me.weishu.kernelsu.ui.component.rememberConfirmDialog
-import me.weishu.kernelsu.ui.component.rememberCustomDialog
-import me.weishu.kernelsu.ui.component.rememberLoadingDialog
-import me.weishu.kernelsu.ui.screen.destinations.AppProfileTemplateScreenDestination
-import me.weishu.kernelsu.ui.screen.destinations.FlashScreenDestination
-import me.weishu.kernelsu.ui.util.getBugreportFile
-import me.weishu.kernelsu.ui.util.getFileNameFromUri
-import me.weishu.kernelsu.ui.util.shrinkModules
+import me.wishu.kernelsu.BuildConfig
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.AboutDialog
+import me.wishu.kernelsu.ui.component.ConfirmResult
+import me.wishu.kernelsu.ui.component.DialogHandle
+import me.wishu.kernelsu.ui.component.SwitchItem
+import me.wishu.kernelsu.ui.component.rememberConfirmDialog
+import me.wishu.kernelsu.ui.component.rememberCustomDialog
+import me.wishu.kernelsu.ui.component.rememberLoadingDialog
+import me.wishu.kernelsu.ui.screen.destinations.AppProfileTemplateScreenDestination
+import me.wishu.kernelsu.ui.screen.destinations.FlashScreenDestination
+import me.wishu.kernelsu.ui.util.getBugreportFile
+import me.wishu.kernelsu.ui.util.getFileNameFromUri
+import me.wishu.kernelsu.ui.util.shrinkModules
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/1/1.
  */
 @OptIn(ExperimentalMaterial3Api::class)
