@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui
+package me.wishu.kernelsu.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -23,13 +23,13 @@ import androidx.navigation.compose.rememberNavController
 import com.ramcosta.composedestinations.DestinationsNavHost
 import com.ramcosta.composedestinations.navigation.popBackStack
 import com.ramcosta.composedestinations.utils.isRouteOnBackStackAsState
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.screen.BottomBarDestination
-import me.weishu.kernelsu.ui.screen.NavGraphs
-import me.weishu.kernelsu.ui.theme.KernelSUTheme
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.rootAvailable
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.ksuApp
+import me.wishu.kernelsu.ui.screen.BottomBarDestination
+import me.wishu.kernelsu.ui.screen.NavGraphs
+import me.wishu.kernelsu.ui.theme.KernelSUTheme
+import me.wishu.kernelsu.ui.util.LocalSnackbarHost
+import me.wishu.kernelsu.ui.util.rootAvailable
 
 class MainActivity : ComponentActivity() {
 

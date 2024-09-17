@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package me.wishu.kernelsu.ui.viewmodel
 
 import android.os.Parcelable
 import android.util.Log
@@ -10,12 +10,12 @@ import androidx.lifecycle.ViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.profile.Capabilities
-import me.weishu.kernelsu.profile.Groups
-import me.weishu.kernelsu.ui.util.getAppProfileTemplate
-import me.weishu.kernelsu.ui.util.listAppProfileTemplates
-import me.weishu.kernelsu.ui.util.setAppProfileTemplate
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.profile.Capabilities
+import me.wishu.kernelsu.profile.Groups
+import me.wishu.kernelsu.ui.util.getAppProfileTemplate
+import me.wishu.kernelsu.ui.util.listAppProfileTemplates
+import me.wishu.kernelsu.ui.util.setAppProfileTemplate
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit
 
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/10/20.
  */
 const val TEMPLATE_INDEX_URL = "https://kernelsu.org/templates/index.json"

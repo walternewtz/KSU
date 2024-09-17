@@ -1,4 +1,4 @@
-package me.weishu.kernelsu
+package me.wishu.kernelsu
 
 import android.app.Application
 import coil.Coil

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.content.Context
 import android.os.Build
@@ -32,13 +32,13 @@ import com.ramcosta.composedestinations.annotation.RootNavGraph
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
-import me.weishu.kernelsu.*
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.rememberConfirmDialog
-import me.weishu.kernelsu.ui.screen.destinations.InstallScreenDestination
-import me.weishu.kernelsu.ui.screen.destinations.SettingScreenDestination
-import me.weishu.kernelsu.ui.util.*
-import me.weishu.kernelsu.ui.util.module.LatestVersionInfo
+import me.wishu.kernelsu.*
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.rememberConfirmDialog
+import me.wishu.kernelsu.ui.screen.destinations.InstallScreenDestination
+import me.wishu.kernelsu.ui.screen.destinations.SettingScreenDestination
+import me.wishu.kernelsu.ui.util.*
+import me.wishu.kernelsu.ui.util.module.LatestVersionInfo
 
 @RootNavGraph(start = true)
 @Destination
@@ -359,7 +359,7 @@ fun DonateCard() {
         Row(modifier = Modifier
             .fillMaxWidth()
             .clickable {
-                uriHandler.openUri("https://patreon.com/weishu")
+                uriHandler.openUri("https://patreon.com/wishu")
             }
             .padding(24.dp), verticalAlignment = Alignment.CenterVertically) {
             Column {

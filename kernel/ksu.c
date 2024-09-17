@@ -103,7 +103,7 @@ module_init(kernelsu_init);
 module_exit(kernelsu_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("weishu");
+MODULE_AUTHOR("wishu");
 MODULE_DESCRIPTION("Android KernelSU");
 
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(5, 0, 0)

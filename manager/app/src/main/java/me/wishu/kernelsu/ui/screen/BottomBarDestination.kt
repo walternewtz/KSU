@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
@@ -6,10 +6,10 @@ import androidx.compose.material.icons.filled.*
 import androidx.compose.material.icons.outlined.*
 import androidx.compose.ui.graphics.vector.ImageVector
 import com.ramcosta.composedestinations.spec.DirectionDestinationSpec
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.screen.destinations.HomeScreenDestination
-import me.weishu.kernelsu.ui.screen.destinations.SuperUserScreenDestination
-import me.weishu.kernelsu.ui.screen.destinations.ModuleScreenDestination
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.screen.destinations.HomeScreenDestination
+import me.wishu.kernelsu.ui.screen.destinations.SuperUserScreenDestination
+import me.wishu.kernelsu.ui.screen.destinations.ModuleScreenDestination
 
 enum class BottomBarDestination(
     val direction: DirectionDestinationSpec,
