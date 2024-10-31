@@ -53,7 +53,6 @@ jobs:
 
       - name: Write key
         run: |
-          if [ ! -z "${{ secrets.KEYSTORE }}" ]; then
             {
               echo KEYSTORE_PASSWORD='${{ secrets.KEYSTORE_PASSWORD }}'
               echo KEY_ALIAS='${{ secrets.KEY_ALIAS }}'
@@ -61,7 +60,6 @@ jobs:
               echo KEYSTORE_FILE='new.keystore'
             } >> gradle.properties
             echo ${{ secrets.KEYSTORE }} | base64 -d > new.keystore
-          fi
 
       - name: Setup Java
         uses: actions/setup-java@v4
