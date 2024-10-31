@@ -53,13 +53,13 @@ jobs:
 
       - name: Write key
         run: |
-            {
-              echo KEYSTORE_PASSWORD='${{ secrets.KEYSTORE_PASSWORD }}'
-              echo KEY_ALIAS='${{ secrets.KEY_ALIAS }}'
-              echo KEY_PASSWORD='${{ secrets.KEY_PASSWORD }}'
-              echo KEYSTORE_FILE='new.keystore'
-            } >> gradle.properties
-            echo ${{ secrets.KEYSTORE }} | base64 -d > new.keystore
+          {
+            echo "KEYSTORE_PASSWORD='${{ secrets.KEYSTORE_PASSWORD }}'"
+            echo "KEY_ALIAS='${{ secrets.KEY_ALIAS }}'"
+            echo "KEY_PASSWORD='${{ secrets.KEY_PASSWORD }}'"
+            echo "KEYSTORE_FILE='new.keystore'"
+          } >> gradle.properties
+            echo "${{ secrets.KEYSTORE }}" | base64 -d > new.keystore
 
       - name: Setup Java
         uses: actions/setup-java@v4
