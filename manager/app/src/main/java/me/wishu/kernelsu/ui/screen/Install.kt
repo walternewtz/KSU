@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.app.Activity
 import android.content.Intent
@@ -57,19 +57,19 @@ import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.generated.destinations.FlashScreenDestination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.ramcosta.composedestinations.navigation.EmptyDestinationsNavigator
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.DialogHandle
-import me.weishu.kernelsu.ui.component.rememberConfirmDialog
-import me.weishu.kernelsu.ui.component.rememberCustomDialog
-import me.weishu.kernelsu.ui.util.LkmSelection
-import me.weishu.kernelsu.ui.util.getCurrentKmi
-import me.weishu.kernelsu.ui.util.getSupportedKmis
-import me.weishu.kernelsu.ui.util.isAbDevice
-import me.weishu.kernelsu.ui.util.isInitBoot
-import me.weishu.kernelsu.ui.util.rootAvailable
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.DialogHandle
+import me.wishu.kernelsu.ui.component.rememberConfirmDialog
+import me.wishu.kernelsu.ui.component.rememberCustomDialog
+import me.wishu.kernelsu.ui.util.LkmSelection
+import me.wishu.kernelsu.ui.util.getCurrentKmi
+import me.wishu.kernelsu.ui.util.getSupportedKmis
+import me.wishu.kernelsu.ui.util.isAbDevice
+import me.wishu.kernelsu.ui.util.isInitBoot
+import me.wishu.kernelsu.ui.util.rootAvailable
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2024/3/12.
  */
 @OptIn(ExperimentalMaterial3Api::class)

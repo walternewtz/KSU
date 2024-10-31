@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.widget.Toast
 import androidx.activity.compose.BackHandler
@@ -47,17 +47,17 @@ import androidx.compose.ui.text.input.KeyboardType
 import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.annotation.RootGraph
 import com.ramcosta.composedestinations.result.ResultBackNavigator
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.profile.RootProfileConfig
-import me.weishu.kernelsu.ui.util.deleteAppProfileTemplate
-import me.weishu.kernelsu.ui.util.getAppProfileTemplate
-import me.weishu.kernelsu.ui.util.setAppProfileTemplate
-import me.weishu.kernelsu.ui.viewmodel.TemplateViewModel
-import me.weishu.kernelsu.ui.viewmodel.toJSON
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.profile.RootProfileConfig
+import me.wishu.kernelsu.ui.util.deleteAppProfileTemplate
+import me.wishu.kernelsu.ui.util.getAppProfileTemplate
+import me.wishu.kernelsu.ui.util.setAppProfileTemplate
+import me.wishu.kernelsu.ui.viewmodel.TemplateViewModel
+import me.wishu.kernelsu.ui.viewmodel.toJSON
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/10/20.
  */
 @OptIn(ExperimentalComposeUiApi::class, ExperimentalMaterial3Api::class)

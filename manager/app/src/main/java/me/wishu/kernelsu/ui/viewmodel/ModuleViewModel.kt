@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package me.wishu.kernelsu.ui.viewmodel
 
 import android.os.SystemClock
 import android.util.Log
@@ -10,8 +10,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.ui.util.listModules
-import me.weishu.kernelsu.ui.util.overlayFsAvailable
+import me.wishu.kernelsu.ui.util.listModules
+import me.wishu.kernelsu.ui.util.overlayFsAvailable
 import org.json.JSONArray
 import org.json.JSONObject
 import java.text.Collator

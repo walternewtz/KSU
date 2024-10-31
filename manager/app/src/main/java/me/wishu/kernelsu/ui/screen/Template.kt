@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.widget.Toast
 import androidx.compose.foundation.clickable
@@ -58,11 +58,11 @@ import com.ramcosta.composedestinations.result.ResultRecipient
 import com.ramcosta.composedestinations.result.getOr
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.viewmodel.TemplateViewModel
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.viewmodel.TemplateViewModel
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/10/20.
  */
 

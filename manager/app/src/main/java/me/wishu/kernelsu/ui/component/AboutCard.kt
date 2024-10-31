@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package me.wishu.kernelsu.ui.component
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
@@ -31,8 +31,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import me.weishu.kernelsu.BuildConfig
-import me.weishu.kernelsu.R
+import me.wishu.kernelsu.BuildConfig
+import me.wishu.kernelsu.R
 
 @Preview
 @Composable

@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package me.wishu.kernelsu.ui.util
 
 import android.annotation.SuppressLint
 import android.app.DownloadManager
@@ -11,10 +11,10 @@ import android.os.Build
 import android.os.Environment
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.DisposableEffect
-import me.weishu.kernelsu.ui.util.module.LatestVersionInfo
+import me.wishu.kernelsu.ui.util.module.LatestVersionInfo
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/6/22.
  */
 @SuppressLint("Range")
