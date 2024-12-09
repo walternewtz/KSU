@@ -1,9 +1,9 @@
-package me.weishu.kernelsu
+package me.wishu.kernelsu
 
 import android.system.Os
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2022/12/10.
  */
 

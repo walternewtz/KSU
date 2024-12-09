@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util
+package me.wishu.kernelsu.ui.util
 
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.material3.MaterialTheme

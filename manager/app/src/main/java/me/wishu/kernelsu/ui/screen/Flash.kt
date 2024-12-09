@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.screen
+package me.wishu.kernelsu.ui.screen
 
 import android.net.Uri
 import android.os.Environment
@@ -51,15 +51,15 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.component.KeyEventBlocker
-import me.weishu.kernelsu.ui.util.LkmSelection
-import me.weishu.kernelsu.ui.util.LocalSnackbarHost
-import me.weishu.kernelsu.ui.util.flashModule
-import me.weishu.kernelsu.ui.util.installBoot
-import me.weishu.kernelsu.ui.util.reboot
-import me.weishu.kernelsu.ui.util.restoreBoot
-import me.weishu.kernelsu.ui.util.uninstallPermanently
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.component.KeyEventBlocker
+import me.wishu.kernelsu.ui.util.LkmSelection
+import me.wishu.kernelsu.ui.util.LocalSnackbarHost
+import me.wishu.kernelsu.ui.util.flashModule
+import me.wishu.kernelsu.ui.util.installBoot
+import me.wishu.kernelsu.ui.util.reboot
+import me.wishu.kernelsu.ui.util.restoreBoot
+import me.wishu.kernelsu.ui.util.uninstallPermanently
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -72,7 +72,7 @@ enum class FlashingStatus {
 }
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/1/1.
  */
 @OptIn(ExperimentalMaterial3Api::class)

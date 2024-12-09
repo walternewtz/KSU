@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.util;
+package me.wishu.kernelsu.ui.util;
 /*
  * Copyright (C) 2009 The Android Open Source Project
  *

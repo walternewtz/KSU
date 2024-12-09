@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component.profile
+package me.wishu.kernelsu.ui.component.profile
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.icons.Icons
@@ -23,14 +23,14 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.R
-import me.weishu.kernelsu.ui.util.listAppProfileTemplates
-import me.weishu.kernelsu.ui.util.setSepolicy
-import me.weishu.kernelsu.ui.viewmodel.getTemplateInfoById
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.R
+import me.wishu.kernelsu.ui.util.listAppProfileTemplates
+import me.wishu.kernelsu.ui.util.setSepolicy
+import me.wishu.kernelsu.ui.viewmodel.getTemplateInfoById
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/10/21.
  */
 @OptIn(ExperimentalMaterial3Api::class)
