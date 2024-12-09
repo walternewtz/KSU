@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.viewmodel
+package me.wishu.kernelsu.ui.viewmodel
 
 import android.content.ComponentName
 import android.content.Intent
@@ -18,12 +18,12 @@ import com.topjohnwu.superuser.Shell
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.parcelize.Parcelize
-import me.weishu.kernelsu.IKsuInterface
-import me.weishu.kernelsu.Natives
-import me.weishu.kernelsu.ksuApp
-import me.weishu.kernelsu.ui.KsuService
-import me.weishu.kernelsu.ui.util.HanziToPinyin
-import me.weishu.kernelsu.ui.util.KsuCli
+import me.wishu.kernelsu.IKsuInterface
+import me.wishu.kernelsu.Natives
+import me.wishu.kernelsu.ksuApp
+import me.wishu.kernelsu.ui.KsuService
+import me.wishu.kernelsu.ui.util.HanziToPinyin
+import me.wishu.kernelsu.ui.util.KsuCli
 import java.text.Collator
 import java.util.*
 import kotlin.coroutines.resume

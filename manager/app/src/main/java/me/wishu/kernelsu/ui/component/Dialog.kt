@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package me.wishu.kernelsu.ui.component
 
 import android.graphics.text.LineBreaker
 import android.os.Build

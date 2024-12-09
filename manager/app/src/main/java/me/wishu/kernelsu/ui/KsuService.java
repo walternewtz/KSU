@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui;
+package me.wishu.kernelsu.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,11 +17,11 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.weishu.kernelsu.IKsuInterface;
+import me.wishu.kernelsu.IKsuInterface;
 import rikka.parcelablelist.ParcelableListSlice;
 
 /**
- * @author weishu
+ * @author wishu
  * @date 2023/4/18.
  */
 

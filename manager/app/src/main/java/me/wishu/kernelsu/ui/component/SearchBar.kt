@@ -1,4 +1,4 @@
-package me.weishu.kernelsu.ui.component
+package me.wishu.kernelsu.ui.component
 
 import android.util.Log
 import androidx.compose.animation.AnimatedVisibility
